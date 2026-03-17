@@ -98,17 +98,4 @@
   f f v   v     v
   f f f   v     v
 
-10 Eu farei um bolo se e somente se comprar os ingredientes.
-  A = farei um bolo 
-  B = comprar os ingredientes
 
-  A B  A↔B
-  v v   v
-  v f   f
-  f v   v
-  f f   v
-
-  
-
-
-  
