@@ -1,0 +1,114 @@
+1 Eu estudei para a prova e fiz todos os exercícios.
+  A = estudei 
+  B = fiz todos 
+
+  A B  A^B
+  v v   v
+  v f   f
+  f v   f
+  f f   f
+
+2 Eu vou ao cinema ou fico em casa assistindo séries.
+  A = vou ao cinema
+  B = fico em casa
+
+  A B  AvB
+  v v  v
+  v f  v
+  f v  v
+  f f  f
+
+3 Se eu acordar cedo, então conseguirei pegar o ônibus.
+  A = acordar cedo
+  B = conseguirei pegar o onibus
+
+  A B  A→B
+  v v   v
+  v f   f
+  f v   v
+  f f   v
+
+4 Se eu estudar muito, então passarei na prova e ganharei um presente.
+  A = estudar muito
+  B = passerei na prova
+  C = ganharei um presente
+
+  A B C  A→B  A→B^C
+  v v v   v     v
+  v v f   v     f 
+  v f v   f     f
+  v f f   f     f
+  f v v   v     v
+  f v f   v     f 
+  f f v   v     f
+  f f f   v     f
+
+5 Eu vou jogar videogame ou vou estudar lógica de programação.
+  A = vou jogar 
+  B = estudar logica
+
+  A B AvB
+  v v  v
+  v f  v
+  f v  v
+  f f  f
+
+6 Eu comi pizza e tomei refrigerante.
+  A = comi pizza
+  B = tomei refrigerante
+
+  A B  A^B
+  v v   v
+  v f   f
+  f v   f
+  f f   f
+
+7 Se eu tiver dinheiro, então viajarei nas férias.
+  A = tiver dinheiro
+  B = viajarei
+
+  A B  A→B
+  v v   v
+  v f   f
+  f v   v
+  f f   v
+
+8 Eu lerei um livro se e somente se terminar meu trabalho.
+  A = lerei um livro 
+  B = terminar meu trabalho
+
+  A B  A↔B
+  v v   v
+  v f   f
+  f v   f
+  f f   v
+
+9 Se estiver sol, então irei à praia ou ao parque.
+  A = estiver sol
+  B = irei a praia
+  C = irei ao parque
+
+  A B C  A→B  A→BvC
+  v v v   v     v
+  v v f   v     v
+  v f v   f     v
+  v f f   f     f
+  f v v   v     v
+  f v f   v     v
+  f f v   v     v
+  f f f   v     v
+
+10 Eu farei um bolo se e somente se comprar os ingredientes.
+  A = farei um bolo 
+  B = comprar os ingredientes
+
+  A B  A↔B
+  v v   v
+  v f   f
+  f v   v
+  f f   v
+
+  
+
+
+  
